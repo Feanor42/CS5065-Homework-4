@@ -1,4 +1,0 @@
-hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar \
--file /home/$USER/CS5065-Homework-4/mapper.py -mapper /home/$USER/CS5065-Homework-4/mapper.py \
--file /home/$USER/CS5065-Homework-4/reducer.py -reducer /home/$USER/CS5065-Homework-4/reducer.py \
--input /user/livingsl/nyc.data -output /user/livingsl/homework4-output
