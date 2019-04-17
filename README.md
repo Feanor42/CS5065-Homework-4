@@ -6,7 +6,7 @@ This repository contains a mapper and reducer that when used with the Hadoop Str
 1. Copy the CSV data to hdfs
    * `hadoop fs -put <path of csv file> <destination directory on hdfs>`
 
-Usage
+##Usage
 1. Run the MapReduce job
 ```
 hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar \
